@@ -13,16 +13,11 @@
 		5E0E5802211F014D0032959F /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E5801211F014D0032959F /* Identifiable.swift */; };
 		5E6E519020F5DEE0002CA8DD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E9F327520F5CED6003D551A /* Info.plist */; };
 		5E9F326A20F5CED5003D551A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F326920F5CED5003D551A /* AppDelegate.swift */; };
-		5E9F326C20F5CED5003D551A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F326B20F5CED5003D551A /* ViewController.swift */; };
 		5E9F326F20F5CED5003D551A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9F326D20F5CED5003D551A /* Main.storyboard */; };
 		5E9F327420F5CED6003D551A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9F327220F5CED6003D551A /* LaunchScreen.storyboard */; };
 		5E9F327F20F5CED6003D551A /* frientinghyunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F327E20F5CED6003D551A /* frientinghyunTests.swift */; };
 		5E9F328A20F5CED6003D551A /* frientinghyunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9F328920F5CED6003D551A /* frientinghyunUITests.swift */; };
-		760AEFE5211F163B003F8B14 /* PageContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE0211F163B003F8B14 /* PageContentController.swift */; };
-		760AEFE6211F163B003F8B14 /* TutorialContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE1211F163B003F8B14 /* TutorialContentViewController.swift */; };
-		760AEFE7211F163B003F8B14 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE2211F163B003F8B14 /* TutorialPageViewController.swift */; };
 		760AEFE8211F163B003F8B14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE3211F163B003F8B14 /* AppDelegate.swift */; };
-		760AEFE9211F163B003F8B14 /* initialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AEFE4211F163B003F8B14 /* initialViewController.swift */; };
 		760AEFEC211F1716003F8B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760AEFEA211F1715003F8B14 /* Assets.xcassets */; };
 		760AEFED211F1716003F8B14 /* mainImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760AEFEB211F1716003F8B14 /* mainImages.xcassets */; };
 		760AF018212863AC003F8B14 /* newViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760AF017212863AC003F8B14 /* newViewController.swift */; };
@@ -56,7 +51,6 @@
 		5E0E5801211F014D0032959F /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		5E9F326620F5CED5003D551A /* frientinghyun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frientinghyun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9F326920F5CED5003D551A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E9F326B20F5CED5003D551A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E9F326E20F5CED5003D551A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E9F327320F5CED6003D551A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E9F327520F5CED6003D551A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,11 +60,7 @@
 		5E9F328520F5CED6003D551A /* frientinghyunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = frientinghyunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9F328920F5CED6003D551A /* frientinghyunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frientinghyunUITests.swift; sourceTree = "<group>"; };
 		5E9F328B20F5CED6003D551A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		760AEFE0211F163B003F8B14 /* PageContentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PageContentController.swift; path = ../../../../tutorial/tutorial/Frienting/PageContentController.swift; sourceTree = "<group>"; };
-		760AEFE1211F163B003F8B14 /* TutorialContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialContentViewController.swift; path = ../../../../tutorial/tutorial/Frienting/TutorialContentViewController.swift; sourceTree = "<group>"; };
-		760AEFE2211F163B003F8B14 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialPageViewController.swift; path = ../../../../tutorial/tutorial/Frienting/TutorialPageViewController.swift; sourceTree = "<group>"; };
 		760AEFE3211F163B003F8B14 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../tutorial/tutorial/Frienting/AppDelegate.swift; sourceTree = "<group>"; };
-		760AEFE4211F163B003F8B14 /* initialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = initialViewController.swift; path = ../../../../tutorial/tutorial/Frienting/initialViewController.swift; sourceTree = "<group>"; };
 		760AEFEA211F1715003F8B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../tutorial/tutorial/Frienting/Assets.xcassets; sourceTree = "<group>"; };
 		760AEFEB211F1716003F8B14 /* mainImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = mainImages.xcassets; path = "../../../frienting-1/frientinghyun/Resources/mainImages.xcassets"; sourceTree = "<group>"; };
 		760AF017212863AC003F8B14 /* newViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewController.swift; sourceTree = "<group>"; };
@@ -137,11 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				760AEFE3211F163B003F8B14 /* AppDelegate.swift */,
-				760AEFE4211F163B003F8B14 /* initialViewController.swift */,
-				760AEFE0211F163B003F8B14 /* PageContentController.swift */,
-				760AEFE1211F163B003F8B14 /* TutorialContentViewController.swift */,
-				760AEFE2211F163B003F8B14 /* TutorialPageViewController.swift */,
-				5E9F326B20F5CED5003D551A /* ViewController.swift */,
 				760AF017212863AC003F8B14 /* newViewController.swift */,
 			);
 			path = Controllers;
@@ -430,16 +415,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0E57F52115D7B20032959F /* Entry.swift in Sources */,
-				5E9F326C20F5CED5003D551A /* ViewController.swift in Sources */,
 				5E0E5800211EF9190032959F /* Board.swift in Sources */,
 				5E0E5802211F014D0032959F /* Identifiable.swift in Sources */,
 				5E9F326A20F5CED5003D551A /* AppDelegate.swift in Sources */,
 				760AEFE8211F163B003F8B14 /* AppDelegate.swift in Sources */,
-				760AEFE9211F163B003F8B14 /* initialViewController.swift in Sources */,
-				760AEFE6211F163B003F8B14 /* TutorialContentViewController.swift in Sources */,
-				760AEFE7211F163B003F8B14 /* TutorialPageViewController.swift in Sources */,
-				5E9F326C20F5CED5003D551A /* ViewController.swift in Sources */,
-				760AEFE5211F163B003F8B14 /* PageContentController.swift in Sources */,
 				760AF018212863AC003F8B14 /* newViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
